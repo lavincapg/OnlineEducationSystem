@@ -1,0 +1,124 @@
+.feedheader{
+    font-family: cursive;
+    margin-left: 3rem;
+    font-size: 22px;
+    font-weight: bolder; 
+    color:#202020;
+    text-transform: uppercase;
+    word-spacing: 1px; letter-spacing:2px;
+}
+.theul{
+    list-style: none;
+}
+.outerfeed{
+    display: flex;
+    bottom: 1.1rem;
+    position: relative;
+    height: -webkit-fill-available;
+    background-size: cover;
+}
+.thelist{
+    list-style: square;
+    font-size: large;
+    padding-bottom: 1rem;
+    font-family: cursive;
+}
+.theanchor{
+    font-weight: 700;
+    text-decoration: none;
+}
+.theanchor:hover{
+    color: red;
+}
+.outeradd{
+    text-align: center;
+    position: relative;
+    background-color: rgb(255 254 254 / 50%);
+    left: 5rem;
+}
+.thelabel{
+    color: #1b00ff;
+    font-size: large;
+    padding-bottom: 0.6rem;
+    font-weight: bolder;
+    display: flex;
+}
+.thebutton{
+    font-family: cursive;
+    font-weight: 900;
+    width: 6rem;
+    font-size: large;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.thebutton:hover{
+    background-color: #1b00ff;
+    color: white;
+    border-color: transparent;
+}
+.thelabel1{
+    color: #1b00ff;
+    /* font-size: large; */
+    font-weight: bolder;
+}
+.tableheader{
+    color: #1b00ff;
+    padding-bottom: 0.6rem;
+    font-weight: bolder;
+}
+/* .mat-drawer-content{
+    overflow: hidden !important;
+} */
+
+.mat-toolbar {
+    background-color: #000000f2; /* Change the background color to your preferred color */
+    color: #fff;
+    justify-content:right;
+  }
+  
+  /* Style for the buttons in the toolbar */
+  .mat-button {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .mat-button:hover {
+    background-color: #1565C0; /* Change the hover color to your preference */
+  }
+  
+  /* Style for the sidenav container */
+  .mat-sidenav-container {
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  .thebutton{
+    cursor: pointer;
+    height: 50px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 130px;
+    color: #505050;
+  }
+  .thebutton:hover{
+    background-color: #8b8b8b;
+    color: white;
+  }
+  
+  
+  .custom-table {
+    border-collapse: collapse;
+   width: 100%;
+   border: 1px solid #000;
+   border-radius: 8px; 
+   }
+   
+   /* Style table cells, headers, or rows as needed */
+   .custom-table th,
+   .custom-table td {
+     border: 1px solid #000; /* Add borders to table cells */
+     padding: 12px; /* Optional: Adjust padding */
+   }
+     

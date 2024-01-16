@@ -1,0 +1,40 @@
+<body>
+  <form class="form-control" (ngSubmit)="register()">
+    <p class="title">REGISTER</p>
+
+    <div class="input-field">
+      <input type="text" class="input" [(ngModel)]="newUser.name" name="name" required>
+      <label class="label" for="input">Full Name</label>
+    </div>
+
+    <div class="input-field">
+      <input type="text" class="input"  [(ngModel)]="newUser.mobileNumber" name="mobileNumber" required>
+      <label class="label" for="input">Mobile Number</label>
+    </div>
+
+    <div class="input-field">
+      <input type="password" class="input" [(ngModel)]="newUser.userPassword" name="userPassword" required>
+      <label class="label" for="input">Password</label>
+    </div>
+
+    <div class="input-field">
+      <input type="text" class="input"  [(ngModel)]="newUser.address" name="address" required>
+      <label class="label" for="input">Address</label>
+    </div>
+
+    <div class="input-field">
+      <input type="text" class="input"  [(ngModel)]="newUser.userName" name="userName" required>
+      <label class="label" for="input">Username</label>
+    </div>
+
+    <div class="input-field">
+      <input type="email" class="input"  [(ngModel)]="newUser.emailId" name="emailId" required>
+      <label class="label" for="input">Email</label>
+    </div>
+
+    <button class="submit-btn" type="submit">Submit</button>
+    <p class="signin">Already have an account? <a href="http://localhost:4200/login">Sign in</a></p>
+  </form>
+
+  
+</body>

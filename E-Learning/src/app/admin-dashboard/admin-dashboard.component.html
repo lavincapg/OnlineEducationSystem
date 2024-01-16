@@ -1,0 +1,22 @@
+<!-- admin-dashboard.component.html -->
+<body>
+    <div class="dashboard-container">
+      <mat-toolbar class="mat-elevation-z4">
+        <div class="admin-details">
+          <button class="thebutton" mat-button [routerLink]="['/trainerInfo']">Trainer Info</button>
+          <button class="thebutton" mat-button [routerLink]="['/courseInfo']">Course Info</button>
+          <button class="thebutton" mat-button [routerLink]="['/studentInfo']">Student Info</button>
+          <button class="thebutton" mat-button [routerLink]="['/enrollmentInfo']">Enrollment Info</button>
+          <button class="thebutton" mat-button [routerLink]="['/feedbackInfo']">Feedback Info</button>
+        </div>
+      </mat-toolbar>
+      <div class="navbar">
+        <button class="nav-button" (click)="logout()">Logout</button>
+      </div>
+      
+      <div class="admin-details">
+        <h1>Welcome Admin!</h1>
+      </div>
+    </div>
+  </body>
+  

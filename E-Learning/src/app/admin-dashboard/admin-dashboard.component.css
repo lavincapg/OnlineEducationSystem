@@ -1,0 +1,90 @@
+/* customer-dashboard.component.css */
+
+body {
+    font-family: 'Lato', sans-serif;
+    /* background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0xD6wrBfJClVh5-q-TMC49EQGUW6QovO0vw&usqp=CAU') center/cover; */
+    height: 100vh;
+  }
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff; /* White background for the entire container */
+    padding: 20px; /* Add padding for better aesthetics */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .nav-button {
+    padding: 8px;
+    cursor: pointer;
+    background-color: #388d17;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    align-items: flex-end;
+  }
+  
+  .nav-button:hover {
+    background-color: #0d4800;
+  }
+  
+  .user-details {
+    margin-top: 10px;
+  }
+  
+  .user-details h2 {
+    margin-bottom: 10px;
+  }
+
+   /* Style for the main toolbar */
+.mat-toolbar {
+  border-radius:10px;
+  background-color: #000000f2; /* Change the background color to your preferred color */
+  color: #fff;
+  justify-content:center;
+  border-radius: 90px;
+}
+
+/* Style for the buttons in the toolbar */
+.mat-button {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 10px;
+  transition: background-color 0.3s;
+  background-color: #388d17;
+}
+
+.mat-button:hover {
+  background-color: #1565C0; /* Change the hover color to your preference */
+}
+
+/* Style for the sidenav container */
+.mat-sidenav-container {
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.thebutton{
+  cursor: pointer;
+  height: 50px;
+  font-weight: 700;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 130px;
+  color: #505050;
+  border-radius: 50px;
+}
+.thebutton:hover{
+  background-color: #8b8b8b;
+  color: white;
+}

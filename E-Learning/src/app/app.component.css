@@ -1,0 +1,41 @@
+/* Style for the main toolbar */
+.mat-toolbar {
+    background-color: #1d568df2; /* Change the background color to your preferred color */
+    color: #fff;
+    justify-content:center;
+  }
+  
+  /* Style for the buttons in the toolbar */
+  .mat-button {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .mat-button:hover {
+    background-color: #1565C0; /* Change the hover color to your preference */
+  }
+  
+  /* Style for the sidenav container */
+  .mat-sidenav-container {
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  /* Style for the router outlet (content area) */
+
+  .thebutton{
+    cursor: pointer;
+    height: 50px;
+    font-weight: 700;
+    font-family: cursive;
+    width: 130px;
+    color: #295f93;
+  }
+  .thebutton:hover{
+    border-color: #295f93;
+    background-color: #295f93;
+    color: white;
+  }
+  

@@ -1,0 +1,62 @@
+<!-- 
+<mat-toolbar class="mat-elevation-z4">
+  <button class="thebutton" mat-button [routerLink]="['/login']">User Login </button>
+  <button class="thebutton" mat-button [routerLink]="['/admin-login']">Admin Login</button>
+</mat-toolbar>
+
+<body>
+    <form class="form-control" (ngSubmit)="login()">
+      <p class="title">ADMIN LOGIN</p>
+    
+      <div class="input-field">
+        <input class="input" type="text" placeholder="" [(ngModel)]="username" name="username" required>
+        <label class="label" for="input">Enter Username</label>
+      </div>
+    
+      <div class="input-field">
+        <input class="input" type="password" placeholder="" [(ngModel)]="password" name="password" required>
+        <label class="label" for="input">Enter Password</label>
+      </div>
+      <p>{{errorMessage}}</p>
+      <button class="submit-btn" type="submit">Sign In</button>
+    </form>
+    </body> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Admin Login</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+
+</head>
+<mat-toolbar class="mat-elevation-z4">
+  <button class="thebutton" mat-button [routerLink]="['/login']">User Login </button>
+  <button class="thebutton" mat-button [routerLink]="['/admin-login']">Admin Login</button>
+</mat-toolbar>
+
+<body>
+  <div class="background">
+    <div class="shape"></div>
+    <div class="shape"></div>
+  </div>
+  <form class="form-control" (ngSubmit)="login()">
+    
+    <h1>ADMIN LOGIN</h1>
+
+    <label class="label" for="input">Enter Username</label>
+    <input class="input" type="text" placeholder="Username" [(ngModel)]="username" name="username" required>
+
+    <label class="label" for="input">Enter Password</label>
+    <input class="input" type="password" placeholder="Password" [(ngModel)]="password" name="password" required>
+
+    <button class="submit-btn" type="submit">Sign In</button>
+    
+    <p>{{errorMessage}}</p>
+  </form>
+</body>
+
+</html>
